@@ -9,6 +9,6 @@ Being a cab booking app company, exploiting an understanding of cab supply and d
 
 Objective of this project is to combine historical usage pattern along with the open data sources like weather data to forecast cab booking demand in a city.
 
-Process Flow
+Process Flow: 
 You will be provided with hourly renting data span of two years. 
 Data is randomly divided into train and test set. You must predict the total count of cabs booked in each hour covered by the testset
