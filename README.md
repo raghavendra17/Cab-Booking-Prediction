@@ -50,5 +50,5 @@ Contains the initial exploration of data like
   * MLPRegressor
 * There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest on OneHotEncoding
 * Feature Importance from the model is also displayed
-* Ensembling models like RandomForest and Boosting gave the best results among all the algorithms used
+* Ensembling models like RandomForest and Boosting and MLPRegressor gave the best results among all the algorithms used
 
