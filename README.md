@@ -38,7 +38,7 @@ Contains the initial exploration of data like
 ## Modeling
 * Split the data into training and testing using train_test_split
 * Standardize the data by applying fit on training data and transform on train and test data
-* Regression algorithms Like 
+* Regression algorithms shown below are used to build the model 
   * Linear Regression
   * Support Vector Machines(Linear)
   * KNN
@@ -48,7 +48,11 @@ Contains the initial exploration of data like
   * Bagging
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPRegressor
-* There is same accuracy for tree based models with and without OneHotEncoding categorical features while accuracy improved for rest on OneHotEncoding
+* Metrics like R2score,AdjustedR2score,RootMeanSquaredError are calcualted
+* Research On Cyclic Features
+  * Transforming hour,month into cos and sin and encoding season,weekDay improved accuracy for all tree based algorithms
+  * Encoding hour,month,season,weekDay improved accuracy for MLPRegressor,LinearRegression,NaiveBayes,knn and decreased for tree based algormiths
+  * Transforming hour,month,season,weekDay into cos and sin improved accuracy for knn,SVR algorithms
 * Feature Importance from the model is also displayed
 * Ensembling models like RandomForest and Boosting and MLPRegressor gave the best results among all the algorithms used
 
