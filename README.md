@@ -21,10 +21,11 @@ Contains the initial exploration of data like
 *   Load training and testing data into DataFrame
 *   Inference about the data -info
 *   Find Missing Values
-*   Feature Engineering - Create new columns hour,weekday,month
-*   Outliers Analysis and removing outliers
-*   Correlation Analysis
+*   Feature Engineering 
+    * Create new columns hour,weekday,month
+    * Outliers Analysis and removing outliers
 *   Data Visualization 
+    * Correlation Analysis
     * Univariate
       * Distribution of target variable
       * Distribution of continuous variables
