@@ -49,10 +49,11 @@ Contains the initial exploration of data like
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPRegressor
 * Metrics like R2score,AdjustedR2score,RootMeanSquaredError are calcualted
-* Research On Cyclic Features
+* Feature Importance from the model is also displayed
+* Ensembling models like RandomForest and Boosting and MLPRegressor gave the best results among all the algorithms used
+## Research On Cyclic Features
   * Transforming hour,month into cos and sin and encoding season,weekDay improved accuracy for all tree based algorithms
   * Encoding hour,month,season,weekDay improved accuracy for MLPRegressor,LinearRegression,NaiveBayes,knn and decreased for tree based algormiths
   * Transforming hour,month,season,weekDay into cos and sin improved accuracy for knn,SVR algorithms
-* Feature Importance from the model is also displayed
-* Ensembling models like RandomForest and Boosting and MLPRegressor gave the best results among all the algorithms used
+
 
