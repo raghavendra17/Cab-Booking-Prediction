@@ -49,7 +49,7 @@ Contains the initial exploration of data like
   * Bagging
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPRegressor
-* Metrics
+* Model Evaluation Metrics
   * R2score
   * AdjustedR2score
   * RootMeanSquaredError are calculated
