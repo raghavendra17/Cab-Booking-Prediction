@@ -49,7 +49,10 @@ Contains the initial exploration of data like
   * Bagging
   * XGBoost,AdaBoost,GradientBoost are used to build the model
   * MLPRegressor
-* Metrics like R2score,AdjustedR2score,RootMeanSquaredError are calcualted
+* Metrics
+  * R2score
+  * AdjustedR2score
+  * RootMeanSquaredError are calculated
 * Feature Importance from the model is also displayed
 * Ensembling models like RandomForest and Boosting and MLPRegressor gave the best results among all the algorithms used
 ## Research On Cyclic Features
