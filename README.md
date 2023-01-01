@@ -16,7 +16,7 @@ Data is randomly divided into train and test set. You must predict the total cou
 
 # Analysis Approach
 
-## Exploratory Data Analysis
+## Data Pre-Processing
 Contains the initial exploration of data like 
 *   Load training and testing data into DataFrame
 *   Inference about the data -info
